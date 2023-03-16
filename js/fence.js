@@ -20,19 +20,19 @@ const posArray =
   },
   {
     name: ['01_Die_Ortsansaessigen','02_Steinbruch_Ort'],
-    coord: "48.214148,15.632561"
+    coord: "48.199816,16.548131"
   },
   {
     name: ['07_Die_Einfahrt'],
-    coord: "48.214284,15.632033"
+    coord: "48.200377,16.548914"
   },
   {
     name: ['03_Verladestation','04_Das_Lager'],
-    coord: "48.214132,15.631491"
+    coord: "48.199966,16.549397"
   },
   {
     name: ['05_Die_Ortschaften','06_Die_Kirche'],
-    coord: "48.213796,15.631206"
+    coord: "48.199790,16.550008"
   },
   {
     name: ['Reihe2'],
@@ -40,7 +40,7 @@ const posArray =
   },
   {
     name: ['24_Das_Lager_im_Westen'],
-    coord: "48.213412,15.631252"
+    coord: "48.200155,16.550368"
   },
   {
     name: ['08_Die_Wirtschaft','13_Das_Ziegelwerk'],
@@ -48,15 +48,15 @@ const posArray =
   },
   {
     name: ['15_Das_Steinbrecherhaus_Betrieb'],
-    coord: "48.687434,15.853374"
+    coord: "48.200388,16.551338"
   },
   {
     name: ['33_Der_Landschaftsgarten','34_Die_Passionsspiele'],
-    coord: "48.687487,15.853916"
+    coord: "48.201006,16.550845"
   },
   {
     name: ['31_Der_Badeunfall'],
-    coord: "48.687339,15.854404"
+    coord: "48.201010,16.550159"
   },
   {
     name: ['Reihe3'],
