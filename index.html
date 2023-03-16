@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <!-- CSS -->
+     <link rel="stylesheet" type="text/css" href="css/style.css">
+     <link rel="stylesheet" href="css/all.min.css" />
+    <title>Spuren lesbar machen</title>
+  </head>
+  <body>
+    <div class="content">
+      <div class="img-container">
+        <audio src="" id="audio"></audio>
+        <img src="" alt="music-cover" id="cover"/>
+        <button id="play" class="action-btn action-btn-big">
+          <i class="fas fa-play"></i>
+        </button>
+        <div class="progress-container">
+          <div class="progress">
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div id="debug">
+      <p>
+        Current Location (lat, lon):<br/>
+        <span id="currentLat">locating...</span>&deg;, <span id="currentLon">locating...</span>&deg;
+      </p>
+      <p>
+        Distance from current target:<br/>
+        <span id="distance">0</span> km
+      </p>
+      <p>
+        Accuracy:<br/>
+        <span id="accuracyText">0</span> 
+      </p>
+      <p>
+        Point Count:<br/>
+        <span id="pointCountText">0</span> 
+      </p>
+      <p>
+        Wake Lock:<br/>
+        <span id="wakeText">0</span> 
+      </p>
+      <p>
+        Version Nr.: 20<br/>
+      </p>
+    </div>
+    <!-- JS -->
+    <!-- JQuery for $ Operator in JS -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/foundation.min.js"></script>
+    <script type="text/javascript" src="js/fence.js"></script>
+    <script type="text/javascript" src="js/player.js"></script>
+    
+  </body>
+</html>
